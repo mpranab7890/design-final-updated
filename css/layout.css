@@ -1,7 +1,6 @@
 .header{
     max-width: 100%;
 
-    
 }
 
 .header-nav{
@@ -24,8 +23,7 @@
 .blog-logo{
     max-width: 100%;
     height: auto;
-    margin: 0px auto;
-    padding: 16px 8px;
+    padding: 16px 0px;
 }
 
 .social-icon{
@@ -77,7 +75,7 @@
     color: #fff;
     float: left;
     position: absolute;
-    top: 37.5%;
+    top: 50%;
     left: 6.535%;
     max-width: 40%;
     height: auto;
@@ -93,7 +91,8 @@
     font-weight: bolder;
     letter-spacing: 2px;
     word-spacing: 5px;
-    font-size: 0.8em;
+    font-size: 0.7em;
+    padding-top: 23px;
 }
 
 .image-content-right{
@@ -129,9 +128,8 @@
 }
 
 .newsletter{
-    padding-top: 20px;
+    padding: 20px;
     max-width: 100%;
-    padding-left: 20px;
 }
 .newsletter-heading{
     /* width: 11.241%;  */
@@ -178,6 +176,31 @@
 }
 
 .post-image, .post-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+ .post-image-left{
+    float: left; 
+    max-width: 34.27%;
+}
+
+.post-image-mid{
+    align-items: center;
+    float: left;
+    max-width: 31.46%;
+    padding: 0px 1px;
+}
+
+
+.post-image-right{
+    float: right; 
+    max-width: 34.27%;
+}
+
+
+
+.post-image-left img, .post-image-mid img, .post-image-right img{
     max-width: 100%;
     height: auto;
 }
@@ -281,6 +304,8 @@
     max-width: 100%;
     background-color: #fff;
 }
+
+
 
 .quotation-wrapper{
     position: relative;
@@ -538,7 +563,7 @@
     font-weight: 900;
 }
 
-.about-blog, .latest-tweets, .latest-comment, .instagram-post{
+.about-blog, .latest-tweets, .latest-comment, .follow-instagram{
     padding: 30px 0px;
 }
 
@@ -573,13 +598,31 @@
     padding-top: 18px;
 }
 
+.instagram-post{
+    padding-top: 40px;
+}
+
 .insta-1, .insta-2, .insta-3, .insta-4, .insta-5, .insta-6{
     float: left;
     padding: 1px 1px;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-blog-text, .latest-tweets-account, .latest-tweets-text, .latest-comment-author, .latest-comment-comment{
+    font-size: 12px;
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 586px){
+    .main-text{
+        top: 37.5%;
+        left: 6.535%;
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 780px){
+
     .menu-icon{
         float: left;
     }
@@ -604,45 +647,27 @@
     .social-icon-list li img{
         height : 100%;
         margin: auto;
-        padding : 19px 19px;
+        padding : 19px 9px;
     }
 
-    .text-section{
-        top: 50%;
-        font-size: 30px;
-        max-width: 30.1960%;
-    }
-
-    .main-text{
-        font-size: 35px;
-        padding-top: 23px;
-    }
-
-    .image-content-left{
-        max-width: 31.04%;
-    }
-
-    .image-content-left span{
-        font-size: 15px;
-    }
-
-    .newsletter-heading{
-        font-size: 20px;
+    .about-blog{
+        max-width: 50%;
         float: left;
     }
 
-    .newsletter-input{
-        float: left;
-        margin-top: 0px;
-        width: 29.15%;
-        margin-right: 30px;
-    }
-
-    .subscribe-button{
-        margin-top: 0px;
+    .latest-tweets{
+        max-width: 50%;
         float: right;
-        width: 18.43%;
-        margin-right: 30px;
+    }
+
+    .follow-instagram{
+        max-width: 50%;
+    }
+
+    .latest-comment{
+        max-width: 50%;
+        float: right;
+        margin-top: -315px;
     }
 
     .post-section{
@@ -656,20 +681,16 @@
 
     }
 
-    .post-bottom-nav, .post-bottom-nav-variant2{
-        padding: 35px 90px;
+    .post-bottom-nav-right{
+        padding-top: 20px;
     }
 
     .post-content h3 , .post-content-variant2 h3{
         font-size: 20px;
     }
 
-    .post-bottom-nav-left{
-        float: left;
-    }
-
-    .post-bottom-nav-right{
-        float: right;
+    .post-bottom-nav, .post-bottom-nav-variant2{
+        padding: 35px 90px;
     }
 
     .post-bottom-nav-right img , .post-bottom-nav-right-variant2 img{
@@ -704,6 +725,69 @@
         padding-left: 80px;
     }
 
+    
+}
+
+
+@media screen and (min-width: 1002px) {
+
+    .blog-logo{
+        margin-left: 40.94%;
+    }
+
+    .text-section{
+        top: 50%;
+        font-size: 30px;
+        max-width: 30.1960%;
+    }
+
+    .main-text{
+        font-size: 35px;
+        
+    }
+
+    .image-content-left{
+        max-width: 31.04%;
+    }
+
+    .image-content-left span{
+        font-size: 15px;
+    }
+
+    .newsletter-heading{
+        font-size: 20px;
+        float: left;
+    }
+
+    .newsletter-input{
+        float: left;
+        margin-top: 0px;
+        width: 29.15%;
+    }
+
+    .subscribe-button{
+        margin-top: 0px;
+        float: right;
+        width: 18.43%;
+        margin-right: 30px;
+    }
+
+    
+
+    .post-bottom-nav-left{
+        float: left;
+    }
+
+    .post-bottom-nav-right{
+        float: right;
+        padding-top: 20px;
+
+    }
+
+    .footer{
+        margin-top: 62px;
+    }
+
     .about-blog, .latest-tweets{
         float: left;
         max-width: 25%;
@@ -720,11 +804,7 @@
         float: left;
         max-width: 24%;
         padding : 57px 30px;
-    }
+        margin-top: 0;
+    }   
 
-    .about-blog-text, .latest-tweets-account, .latest-tweets-text, .latest-comment-author, .latest-comment-comment{
-        font-size: 12px;
-    }
-   
-    
 }
