@@ -36,8 +36,18 @@
     padding-top: 23px;
 }
 
-.featured-article-text{
-    transform: rotate(-90deg);
+.top-arrow{
+    padding-left: 50px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom-arrow{
+    padding-left: 50px;
+    padding-top: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 .newsletter-heading{
@@ -146,6 +156,10 @@
 
 .post-bottom-nav-right img{
     padding: 20px 8px;
+}
+
+.post-bottom-nav-right a , .post-bottom-nav-left a{
+    text-decoration: none;
 }
 
 .post-content-variant2{
@@ -274,6 +288,10 @@
     padding: 36px 0px;
 }
 
+.social-media-icons a{
+    text-decoration: none;
+}
+
 .social-media-icons img{
     padding-right: 36px;
 }
@@ -329,19 +347,4 @@
 
 .about-blog-text, .latest-tweets-account, .latest-tweets-text, .latest-comment-author, .latest-comment-comment{
     font-size: 12px;
-}
-
-@media screen and (min-width: 780px){
-    
-
-}
-
-
-@media screen and (min-width: 1002px){
-   
-
-   
-
-
-
 }

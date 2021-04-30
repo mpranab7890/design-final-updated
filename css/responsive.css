@@ -8,7 +8,10 @@
 
 
 @media screen and (min-width: 780px){
-
+    .image-content-right{
+        display: block;
+        padding : 50px 0px;
+    }
     .image-content-left{
         top: 38.89%;
     }
@@ -26,6 +29,11 @@
 
     .social-icon{
         float: right;
+    }
+
+    .featured-article-text{
+        transform: rotate(-90deg);
+        padding : 50px 0px;
     }
 
     .newsletter-heading{

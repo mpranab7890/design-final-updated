@@ -49,9 +49,9 @@
     float: right;
     position: absolute;
     color: #fff;
-    top: 28.125%;
+    top: 18%;
     right: 0%; 
-    height: 100%
+    display: none;
 }
 
 .body{
