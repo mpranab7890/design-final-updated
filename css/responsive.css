@@ -1,0 +1,196 @@
+@media screen and (min-width: 586px){
+    .main-text{
+        top: 37.5%;
+        left: 6.535%;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width: 780px){
+
+    .image-content-left{
+        top: 38.89%;
+    }
+
+    .menu-icon{
+        float: left;
+    }
+
+    .blog-logo{
+        float: left;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .social-icon{
+        float: right;
+    }
+
+    .newsletter-heading{
+        font-size: 20px;
+    }
+
+
+    .about-blog{
+        max-width: 50%;
+        float: left;
+    }
+
+    .latest-tweets{
+        max-width: 50%;
+        float: right;
+    }
+
+    .follow-instagram{
+        max-width: 50%;
+    }
+
+    .latest-comment{
+        max-width: 50%;
+        float: right;
+        margin-top: -315px;
+    }
+
+    .post-section{
+        width: 74.50%;
+        float: left;
+    }
+
+    .post-content, .post-content-variant2 {
+        padding-left: 90px;
+        padding-right: 90px;
+
+    }
+
+    .post-bottom-nav-right{
+        padding-top: 20px;
+    }
+
+    .post-content h3 , .post-content-variant2 h3{
+        font-size: 20px;
+    }
+
+    .post-bottom-nav, .post-bottom-nav-variant2{
+        padding: 35px 90px;
+    }
+
+    .post-bottom-nav-right img , .post-bottom-nav-right-variant2 img{
+        padding : 0px 8px;
+    }
+
+    .social-icon-list li img{
+        height : 100%;
+        margin: auto;
+        padding : 19px 9px;
+    }
+
+    .picture-logo{
+        top: 95%;
+        right: 48%;
+    }
+
+    .quote-icon{
+        left: 50%;
+    }
+
+    .latest-post-image{
+        float: left;
+    }
+
+    .latest-post-content{
+        text-align: start;
+        font-size: 12px;
+    }
+
+    .latest-post-name, .latest-post-info{
+        padding-left: 80px;
+    }
+
+
+   
+    .right-nav{
+        max-width: 23.52%;
+        float: right;
+        margin: 50px 0px;
+    }
+}
+
+
+@media screen and (min-width: 1002px) {
+    .blog-logo{
+        margin-left: 40.94%;
+    }
+
+    .main-text{
+        font-size: 35px;
+        
+    }
+
+    .image-content-left span{
+        font-size: 15px;
+    }
+
+    .newsletter-heading{
+        float: left;
+    }
+
+    .newsletter-input{
+        float: left;
+        margin-top: 0px;
+        width: 29.15%;
+    }
+
+    .subscribe-button{
+        margin-top: 0px;
+        float: right;
+        width: 18.43%;
+        margin-right: 30px;
+    }
+
+    .text-section{
+        top: 50%;
+        font-size: 30px;
+        max-width: 30.1960%;
+    }
+
+    .image-content-left{
+        max-width: 31.04%;
+    }
+
+
+    .post-bottom-nav-left{
+        float: left;
+    }
+
+    .post-bottom-nav-right{
+        float: right;
+        padding-top: 0px;
+
+    }
+
+    .footer{
+        margin-top: 62px;
+    }
+
+    .about-blog, .latest-tweets{
+        float: left;
+        max-width: 25%;
+        padding : 57px 30px;
+    }
+
+    .follow-instagram{
+        float: left;
+        width: 26%;
+        padding : 57px 0px;
+    }
+
+    .latest-comment{
+        float: left;
+        max-width: 24%;
+        padding : 57px 30px;
+        margin-top: 0;
+    }   
+
+}
