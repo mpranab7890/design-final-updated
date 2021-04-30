@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
