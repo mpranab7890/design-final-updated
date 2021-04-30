@@ -204,6 +204,9 @@
     text-transform: uppercase;
     padding-top: 25px;
 }
+.second-quotation-text-2 a{
+    color: #fff;
+}
 
 .search-input input{
     border: 0;
