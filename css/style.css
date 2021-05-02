@@ -28,6 +28,11 @@
 
 }
 
+.header-image-banner{
+    min-width: 100%;
+    height: auto;
+}
+
 .main-text{
     font-weight: bolder;
     letter-spacing: 2px;
@@ -80,13 +85,20 @@
     padding : 0px 20px
 }
 
-.post-image, .post-image img{
+.post-image , .post-image img{
     max-width: 100%;
+    height: auto;
+}
+
+.post-image-1 , .post-image-video , .post-image-soundcloud{
+    max-width: 100%;
+    min-width: 100%;
     height: auto;
 }
 
 .post-image-left img, .post-image-mid img, .post-image-right img{
     max-width: 100%;
+    min-width: 100%;
     height: auto;
 }
 
@@ -106,6 +118,12 @@
     position: absolute;
     top: 85%;
     right: 45%;
+}
+
+.video-icon{
+    position: absolute;
+    right: 0%;
+    top: 0%;
 }
 
 .post-content{
@@ -190,7 +208,7 @@
 .quote-icon{
     position: absolute;
     bottom: 95%;
-    left: 45%;
+    left: 50%;
 }
 
 .second-quotation-text-1{

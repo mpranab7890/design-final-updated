@@ -96,6 +96,7 @@
     align-items: center;
     float: left;
     max-width: 31.46%;
+    min-width: 31.46%;
     padding: 0px 1px;
 }
 
