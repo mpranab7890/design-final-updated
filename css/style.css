@@ -124,6 +124,7 @@
     position: absolute;
     right: 0%;
     top: 0%;
+    max-height: 50%
 }
 
 .post-content{
